@@ -18,4 +18,21 @@
     "comment": "This is just a test on how the formatting works. .amazon is a real TLD.",
     "port": null
   }
+   {
+    "id": "amal-2026-02-09--01",
+    "url": [
+      "http://91.92.242.236/",
+      "http://91.92.242.236/oPvjr94jfe/Login.php"
+    ],
+    "indicator": "/evidence/amal-2026-02-09--01.pdf",
+    "type": "url"
+    "threat_type": "test",
+    "malware_family": "test",
+    "status": "online",
+    "first_seen": "2026-09-01T20:49:00+02:00",
+    "reporter": "dll-cybersecurity",
+    "sandbox_analysis": "https://tria.ge/260901-zb4mysef57/behavioral1",
+    "comment": "C2 botnet.",
+    "port": null
+  }
 ]
