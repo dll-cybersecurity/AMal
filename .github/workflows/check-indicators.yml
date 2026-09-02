@@ -2,15 +2,14 @@ name: Check Indicator Status
 
 on:
   schedule:
-    # Alle 6 Stunden. Cron ist in UTC!
     - cron: "0 */6 * * *"
-  workflow_dispatch: {}  # erlaubt manuelles Auslösen über den "Actions"-Tab
+  workflow_dispatch:
 
 jobs:
   check-status:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # damit die Action committen darf
+      contents: write
 
     steps:
       - name: Repo auschecken
