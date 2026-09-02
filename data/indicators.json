@@ -6,7 +6,7 @@
       "http://91.92.242.236/oPvjr94jfe/Login.php"
     ],
     "indicator": "/evidence/amal-2026-02-09--01.pdf",
-    "type": "url"
+    "type": "C2"
     "threat_type": "test",
     "malware_family": "test",
     "status": "online",
