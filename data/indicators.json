@@ -1,23 +1,4 @@
 [
-  {
-    "id": "test",
-    "url": [
-      "example.org",
-      "example.com",
-      "example.amazon"
-    ],
-    "indicator": "/evidence/test.pdf",
-    "type": "url",
-    "threat_type": "test",
-    "malware_family": "test",
-    "status": "online",
-    "first_seen": "2026-09-01T22:52:00Z",
-    "reporter": "dll-cybersecurity",
-    "test": true,
-    "sandbox_analysis": "myverycoolanalysis.com/analysis1",
-    "comment": "This is just a test on how the formatting works. .amazon is a real TLD.",
-    "port": null
-  }
    {
     "id": "amal-2026-02-09--01",
     "url": [
