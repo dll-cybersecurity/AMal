@@ -1,0 +1,33 @@
+name: Check Indicator Status
+
+on:
+  schedule:
+    # Alle 6 Stunden. Cron ist in UTC!
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}  # erlaubt manuelles Auslösen über den "Actions"-Tab
+
+jobs:
+  check-status:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # damit die Action committen darf
+
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Indikatoren prüfen
+        run: python scripts/check_indicators.py
+
+      - name: Änderungen committen (falls vorhanden)
+        run: |
+          git config user.name "amal-bot"
+          git config user.email "actions@github.com"
+          git add data/indicators.json
+          git diff --staged --quiet || git commit -m "Automatischer Status-Check"
+          git diff --staged --quiet || git push
