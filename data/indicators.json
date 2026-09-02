@@ -39,5 +39,24 @@
     "references": "https://tria.ge/260902-qwqr6ayyav/behavioral1",
     "comment": "Possible spyware",
     "port": 8080
+  },
+  {
+    "id": "amal-2026-02-09--03",
+    "indicator": [
+      "http://103.101.85.26",
+      "http://103.101.85.26/gate"
+    ],
+    "evidence": "/evidence/amal-2026-02-09--03.pdf",
+    "type": "spyware",
+    "tags": [
+      "spyware"
+    ],
+    "status": "online",
+    "first_seen": "2026-09-02T15:35:00+02:00",
+    "reporter": "dll-cybersecurity",
+    "confidence": 95,
+    "references": "https://tria.ge/260902-r1tkaavdnd/behavioral1",
+    "comment": "Spyware linking to known telegram group (might get taken down)",
+    "port": null
   }
 ]
