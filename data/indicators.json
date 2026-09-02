@@ -58,5 +58,25 @@
     "references": "https://tria.ge/260902-r1tkaavdnd/behavioral1",
     "comment": "Spyware linking to known telegram group (might get taken down)",
     "port": null
+  },
+  
+  {
+    "id": "amal-2026-02-09--04",
+    "indicator": [
+      "http://3.67.15.169",
+      "http://7.tcp.eu.ngrok.io"
+    ],
+    "evidence": "/evidence/amal-2026-02-09--04.pdf",
+    "type": "nanobot",
+    "tags": [
+      "nanobot"
+    ],
+    "status": "online",
+    "first_seen": "2026-09-02T17:50:00+02:00",
+    "reporter": "dll-cybersecurity",
+    "confidence": 100,
+    "references": "https://tria.ge/260902-vywteayejf",
+    "comment": "",
+    "port": 18009
   }
 ]
