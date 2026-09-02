@@ -1,26 +1,22 @@
 [
-   {
+  {
     "id": "amal-2026-02-09--01",
     "indicator": [
       "http://91.92.242.236/",
       "http://91.92.242.236/oPvjr94jfe/Login.php"
     ],
     "evidence": "/evidence/amal-2026-02-09--01.pdf",
-    "type": "C2"
-    "threat_type": [ 
-       "c2",
-       "botnet" 
-    ],
+    "type": "C2",
     "tags": [
-       "c2",
-       "danabot",
-       "botnet"
-    ]
+      "c2",
+      "danabot",
+      "botnet"
+    ],
     "status": "online",
     "first_seen": "2026-09-01T20:49:00+02:00",
     "reporter": "dll-cybersecurity",
-      "confidence": 100,
-    "refrences": "https://tria.ge/260901-zb4mysef57/behavioral1",
+    "confidence": 100,
+    "references": "https://tria.ge/260901-zb4mysef57/behavioral1",
     "comment": "C2 botnet.",
     "port": null
   }
