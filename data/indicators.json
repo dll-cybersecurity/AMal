@@ -61,12 +61,12 @@
   },
   
   {
-    "id": "amal-2026-02-09--04",
+    "id": "amal-2026-09-02--04",
     "indicator": [
       "http://3.67.15.169",
       "http://7.tcp.eu.ngrok.io"
     ],
-    "evidence": "/evidence/amal-2026-02-09--04.pdf",
+    "evidence": "/evidence/amal-2026-09-02--04.pdf",
     "type": "nanobot",
     "tags": [
       "nanobot"
@@ -81,17 +81,17 @@
   },
   
   {
-    "id": "amal-2026-03-09-01",
+    "id": "amal-2026-09-03-01",
     "indicator": [
       "170.62.130.47"
     ],
-    "evidence": "/evidence/amal-2026-03-09--01.pdf",
+    "evidence": "/evidence/amal-2026-09-03--01.pdf",
     "type": "nanobot",
     "tags": [
       "valleyrat"
     ],
-    "status": "offline",
-    "first_seen": "2026-09-02T17:50:00+02:00",
+    "status": "online",
+    "first_seen": "2026-09-03T15:50:00+02:00",
     "reporter": "dll-cybersecurity",
     "confidence": 100,
     "references": "https://tria.ge/260903-swf9tsbk9v/behavioral1",
