@@ -32,7 +32,7 @@
       "malware",
       "spyware"
     ],
-    "status": "online",
+    "status": "offline",
     "first_seen": "2026-09-02T13:42:00+02:00",
     "reporter": "dll-cybersecurity",
     "confidence": 85,
@@ -51,7 +51,7 @@
     "tags": [
       "spyware"
     ],
-    "status": "online",
+    "status": "offline",
     "first_seen": "2026-09-02T15:35:00+02:00",
     "reporter": "dll-cybersecurity",
     "confidence": 95,
@@ -71,12 +71,35 @@
     "tags": [
       "nanobot"
     ],
-    "status": "online",
+    "status": "offline",
     "first_seen": "2026-09-02T17:50:00+02:00",
     "reporter": "dll-cybersecurity",
     "confidence": 100,
     "references": "https://tria.ge/260902-vywteayejf",
     "comment": "",
     "port": 18009
+  },
+  
+  {
+    "id": "amal-2026-03-09-01",
+    "indicator": [
+      "170.62.130.47"
+    ],
+    "evidence": "/evidence/amal-2026-03-09--01.pdf",
+    "type": "nanobot",
+    "tags": [
+      "valleyrat"
+    ],
+    "status": "offline",
+    "first_seen": "2026-09-02T17:50:00+02:00",
+    "reporter": "dll-cybersecurity",
+    "confidence": 100,
+    "references": "https://tria.ge/260903-swf9tsbk9v/behavioral1",
+    "comment": "Valleyrat",
+    "port": [
+      449,
+      443
+    ]
   }
+  
 ]
