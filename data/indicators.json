@@ -85,7 +85,7 @@
     "indicator": [
       "170.62.130.47"
     ],
-    "evidence": "/evidence/amal-2026-09-03--01.pdf",
+    "evidence": "/evidence/amal-2026-09-03--01.pcapng",
     "type": "nanobot",
     "tags": [
       "valleyrat"
