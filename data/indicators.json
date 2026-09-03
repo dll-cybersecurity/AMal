@@ -100,6 +100,23 @@
       449,
       443
     ]
-  }
-  
+  },
+    {
+    "id": "amal-2026-09-03-02",
+    "indicator": [
+      "https://www.mediafire.com/file/muat7l4zq9jrjm3/GTA_6_VI_%2528update_1.02%2529.zip"
+    ],
+    "evidence": "/evidence/amal-2026-09-03--02.pdf",
+    "type": "fake-download",
+    "tags": [
+      "gta vi"
+    ],
+    "status": "online",
+    "first_seen": "2026-09-03T15:50:00+02:00",
+    "reporter": "dll-cybersecurity",
+    "confidence": 75,
+    "references": "https://tria.ge/260903-xdcwxaterc/behavioral1",
+    "comment": "Fake GTA VI Download",
+    "port": null
+    }
 ]
