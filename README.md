@@ -1,10 +1,8 @@
 # AMal - Anti-Malware Indicator Feed
-<p align="center">
-  <img src="https://img.shields.io/badge/License-Unlicense-blue.svg?style=for-the-badge" alt="License"/>
-  <img src="https://img.shields.io/github/workflow/status/dll-cybersecurity/AMal/main?style=for-the-badge&label=IOC%20Check" alt="Build" />
-  <img src="https://img.shields.io/github/issues/dll-cybersecurity/AMal?style=for-the-badge&color=f50057" alt="Issues" />
-  <img src="[GitHub Issues](https://img.shields.io/github/issues/dll-cybersecurity/AMal?style=for-the-badge&color=f50057)](https://github.com/dll-cybersecurity/AMal/issues)" />
-</p>
+[![License: Unlicense](https://img.shields.io/badge/License-Unlicense-blue.svg?style=for-the-badge)](https://unlicense.org/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-Active-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/dll-cybersecurity/AMal/actions)
+[![GitHub Issues](https://img.shields.io/github/issues/dll-cybersecurity/AMal?style=for-the-badge&color=f50057)](https://github.com/dll-cybersecurity/AMal/issues)
+[![Feed Format](https://img.shields.io/badge/Format-JSON-00f2fe?style=for-the-badge)](https://raw.githubusercontent.com/dll-cybersecurity/AMal/main/data/indicators.json)
 
 ## 1. What is AMal?
 **A**nti-**Mal**ware (**AMal**) is a community-driven cybersecurity project designed to block and blacklist C2 servers, malware delivery payloads, phishing domains, and malicious web infrastructure.
