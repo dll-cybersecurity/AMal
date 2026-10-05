@@ -22,8 +22,21 @@ We target confirmed malicious infrastructure, defacements, and threat hosts.
 
 ## 4. How do I use it?
 AMal acts as a simple, open JSON API. Send a standard `GET` request to retrieve the full, validated indicator feed:
+# Bash:
+```bash
+curl -s [https://raw.githubusercontent.com/dll-cybersecurity/AMal/main/data/indicators.json](https://raw.githubusercontent.com/dll-cybersecurity/AMal/main/data/indicators.json) | jq .
+```
+# Python:
+```python
+import requests
 
-GET https://raw.githubusercontent.com/dll-cybersecurity/AMal/main/data/indicators.json
+AMAL_FEED_URL = "[https://raw.githubusercontent.com/dll-cybersecurity/AMal/main/data/indicators.json](https://raw.githubusercontent.com/dll-cybersecurity/AMal/main/data/indicators.json)"
+
+response = requests.get(AMAL_FEED_URL)
+indicators = response.json()
+
+print(f"Loaded {len(indicators)} active threat indicators.")
+```
 
 ## 5. Update Frequency
 The IOC list is updated dynamically as new threats are verified by our team and contributors. If you employ custom allowlists, configure your automated integration scripts accordingly.
