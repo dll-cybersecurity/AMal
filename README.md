@@ -3,6 +3,7 @@
   <img src="https://img.shields.io/badge/License-Unlicense-blue.svg?style=for-the-badge" alt="License"/>
   <img src="https://img.shields.io/github/workflow/status/dll-cybersecurity/AMal/main?style=for-the-badge&label=IOC%20Check" alt="Build" />
   <img src="https://img.shields.io/github/issues/dll-cybersecurity/AMal?style=for-the-badge&color=f50057" alt="Issues" />
+  <img src="[GitHub Issues](https://img.shields.io/github/issues/dll-cybersecurity/AMal?style=for-the-badge&color=f50057)](https://github.com/dll-cybersecurity/AMal/issues)" />
 </p>
 
 ## 1. What is AMal?
