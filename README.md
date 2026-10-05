@@ -13,7 +13,7 @@ We target confirmed malicious infrastructure, defacements, and threat hosts.
 * `hxxps://scamwebsite[dot]com/please-fetch-me.exe` (Malware Payload)
 * `hxxps://scamwebsite[dot]com/` (Active C2 / Phishing Landing Page)
 
-> [!WARNING]
+> [!WARN]
 > **Zero False-Positives Policy:** Legitimate software downloads (e.g., game installers) are never flagged unless verified malicious through detailed analysis. Optional feeds for click-trackers and potentially unwanted programs (PUPs) are also maintained separately.
 
 ## 4. How do I use it?
