@@ -24,13 +24,13 @@ We target confirmed malicious infrastructure, defacements, and threat hosts.
 AMal acts as a simple, open JSON API. Send a standard `GET` request to retrieve the full, validated indicator feed:
 # Bash:
 ```bash
-curl -s [https://raw.githubusercontent.com/dll-cybersecurity/AMal/main/data/indicators.json](https://raw.githubusercontent.com/dll-cybersecurity/AMal/main/data/indicators.json) | jq .
+curl -s https://raw.githubusercontent.com/dll-cybersecurity/AMal/main/data/indicators.json | jq .
 ```
 # Python:
 ```python
 import requests
 
-AMAL_FEED_URL = "[https://raw.githubusercontent.com/dll-cybersecurity/AMal/main/data/indicators.json](https://raw.githubusercontent.com/dll-cybersecurity/AMal/main/data/indicators.json)"
+AMAL_FEED_URL = "https://raw.githubusercontent.com/dll-cybersecurity/AMal/main/data/indicators.json"
 
 response = requests.get(AMAL_FEED_URL)
 indicators = response.json()
