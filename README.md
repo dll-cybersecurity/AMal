@@ -33,4 +33,5 @@ The IOC list is updated dynamically as new threats are verified by our team and 
 | :--- | :--- | :--- |
 | **Public Threat Submission** | [GitHub Issues](../../issues) | Report public C2s, payloads, or malware domains. |
 | **Confidential / Takedowns** | `abuse-report31@proton.me` | Encrypted channel for false-positives or sensitive disclosures. |
+
 Stay safe and happy hunting!
