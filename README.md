@@ -1,4 +1,9 @@
 # AMal - Anti-Malware Indicator Feed
+<p align="center">
+  <img src="https://img.shields.io/github/license/dll-cybersecurity/AMal?style=for-the-badge&color=00f2fe" alt="License" />
+  <img src="https://img.shields.io/github/workflow/status/dll-cybersecurity/AMal/main?style=for-the-badge&label=IOC%20Check" alt="Build" />
+  <img src="https://img.shields.io/github/issues/dll-cybersecurity/AMal?style=for-the-badge&color=f50057" alt="Issues" />
+</p>
 
 ## 1. What is AMal?
 **A**nti-**Mal**ware (**AMal**) is a community-driven cybersecurity project designed to block and blacklist C2 servers, malware delivery payloads, phishing domains, and malicious web infrastructure.
