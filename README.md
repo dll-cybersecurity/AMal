@@ -29,8 +29,8 @@ GET https://raw.githubusercontent.com/dll-cybersecurity/AMal/main/data/indicator
 The IOC list is updated dynamically as new threats are verified by our team and contributors. If you employ custom allowlists, configure your automated integration scripts accordingly.
 
 ## 6. How do I contribute?
-Public IOCs & Bug Reports: Please submit a new report using the GitHub Issues tab.
-Sensitive Disclosures: For confidential submissions or false-positive reports, contact us directly at abuse-report31@proton.me.
-Please reserve the contact email strictly for verified security reports.
-
+| Task | Channel | Description |
+| :--- | :--- | :--- |
+| **Public Threat Submission** | [GitHub Issues](../../issues) | Report public C2s, payloads, or malware domains. |
+| **Confidential / Takedowns** | `abuse-report31@proton.me` | Encrypted channel for false-positives or sensitive disclosures. |
 Stay safe and happy hunting!
