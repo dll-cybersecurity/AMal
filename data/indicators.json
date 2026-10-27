@@ -81,7 +81,7 @@
   },
   
   {
-    "id": "amal-2026-09-03-01",
+    "id": "amal-2026-09-03--01",
     "indicator": [
       "170.62.130.47"
     ],
@@ -158,6 +158,24 @@
     "confidence": 100,
     "references": "https://app.any.run/tasks/b38654d4-916a-4e5b-9838-f7291933593b/",
     "comment": "Historic Urausy",
+    "port": 80
+  },
+    {
+    "id": "amal-2026-10-27-01",
+    "indicator": [
+      "151.245.229.218"
+    ],
+    "evidence": "/evidence/amal-2026-10-27--01.pdf",
+    "type": "RAT",
+    "tags": [
+      "BTMOBRAT"
+    ],
+    "status": "online",
+    "first_seen": "2026-10-27T16:55:00+01:00",
+    "reporter": "dll-cybersecurity",
+    "confidence": 100,
+    "references": "https://tria.ge/260903-swf9tsbk9v/behavioral1",
+    "comment": "BTMORAT, reported",
     "port": 80
   }
 ]
