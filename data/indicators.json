@@ -46,7 +46,7 @@
       "http://103.101.85.26",
       "http://103.101.85.26/gate"
     ],
-    "evidence": "/evidence/amal-2026-02-09--03.pdf",
+    "evidence": "/evidence/amal-2026-09-02--03.pdf",
     "type": "spyware",
     "tags": [
       "spyware"
@@ -59,7 +59,6 @@
     "comment": "Spyware linking to known telegram group (might get taken down)",
     "port": null
   },
-  
   {
     "id": "amal-2026-09-02--04",
     "indicator": [
@@ -79,7 +78,6 @@
     "comment": "",
     "port": 18009
   },
-  
   {
     "id": "amal-2026-09-03--01",
     "indicator": [
@@ -101,7 +99,7 @@
       443
     ]
   },
-   {
+  {
     "id": "amal-2026-10-05--01",
     "indicator": [
       "110.134.247.127",
@@ -160,8 +158,8 @@
     "comment": "Historic Urausy",
     "port": 80
   },
-    {
-    "id": "amal-2026-10-27-01",
+  {
+    "id": "amal-2026-10-27--01",
     "indicator": [
       "151.245.229.218"
     ],
@@ -174,8 +172,26 @@
     "first_seen": "2026-10-27T16:55:00+01:00",
     "reporter": "dll-cybersecurity",
     "confidence": 100,
-    "references": "https://tria.ge/260903-swf9tsbk9v/behavioral1",
-    "comment": "BTMORAT, reported",
+    "references": "https://tria.ge/261027-t4859aft7k",
+    "comment": "BTMOBRAT, reported",
+    "port": 80
+  },
+  {
+    "id": "amal-2026-10-27--02",
+    "indicator": [
+      "89.213.41.179"
+    ],
+    "evidence": "/evidence/amal-2026-10-27--02.pdf",
+    "type": "RAT",
+    "tags": [
+      "BTMOBRAT"
+    ],
+    "status": "online",
+    "first_seen": "2026-10-27T17:00:00+01:00",
+    "reporter": "dll-cybersecurity",
+    "confidence": 100,
+    "references": "https://tria.ge/261027-vggcdsvzby/behavioral1",
+    "comment": "BTMOB RAT",
     "port": 80
   }
 ]
